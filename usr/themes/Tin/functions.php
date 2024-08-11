@@ -154,7 +154,7 @@ function themeFields($layout) {
 /*文章略缩图  <?php showThumbnail($this); ?>调用*/
 function showThumbnail($widget)
 { 
-    $mr = 'https://api.e123e.cn/api/api.php';
+    $mr = 'https://t.alcy.cc/moe';
     $attach = $widget->attachments(1)->attachment;
     $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i'; 
 if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
